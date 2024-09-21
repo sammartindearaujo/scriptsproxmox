@@ -62,7 +62,6 @@ function cleanup() {
 }
 TEMP_DIR=$(mktemp -d)
 pushd $TEMP_DIR >/dev/null
-fi
 if (whiptail --backtitle "Proxmox VE Helper Scripts" --title "Mikrotik RouterOS CHR VM" --yesno "This will create a New Mikrotik RouterOS CHR VM. Proceed?" 10 58); then
   echo "User selected Yes"
 else
