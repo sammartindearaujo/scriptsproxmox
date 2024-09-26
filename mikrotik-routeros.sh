@@ -234,7 +234,7 @@ msg_ok "Using ${CL}${BL}$STORAGE${CL} ${GN}for Storage Location."
 msg_ok "Virtual Machine ID is ${CL}${BL}$VMID${CL}."
 msg_info "Getting URL for Mikrotik RouterOS CHR Disk Image"
 
-URL=https://github.com/elseif/MikroTikPatch/releases/download/7.15.3/chr-7.15.3.img.zip
+URL=https://github.com/elseif/MikroTikPatch/releases/download/7.16/chr-7.16.img.zip
 
 sleep 2
 msg_ok "${CL}${BL}${URL}${CL}"
